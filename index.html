@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="container">
+            <a href="" class="logo-wrapper">
+                <div class="logo-wrapper__logo">
+                    <img src="img/logo.png" alt="logotype">
+                </div>
+                <h1>Блог об IT</h1>
+            </a>
+            <ul class="header-menu">
+                <li>
+                    <a href="index.html#about-blog">О блоге</a>
+                </li>
+                <li class="header-menu__find">
+                    <div class="wrap">
+                        <input type="text" id="find-field" placeholder="Поиск">
+                    </div>
+                    <button type="button" id="find-btn"><img src="img/find.png" alt="find-icon"></button>
+                    <div class="find-block find-block-hide" id="find-block">
+                        <!-- <a href="articles/first.html">Первая статья</a> -->
+                        <p id="nothingFound">Ничего не найдено</p>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="articles" id="articles">
+            <div class="container">
+                <h2>Статьи</h2>
+                <div class="articles__row">
+                    <article>
+                        <h3>Flexbox верстка. Css/Html</h3>
+                        <div class="img-wrapper">
+                            <img src="img/img1.png" alt="">
+                        </div>
+                        <div class="article-info">
+                                <div class="article-info__date">
+                                    <time>13.09.2021</time>
+                                </div>
+                                <div class="article-info__btn">
+                                    <a href="articles/1.html">Читать</a>
+                                </div>
+                            </div>
+                    </article>
+                    <article>
+                        <h3>Модальное окно на чистом JS. Javascript</h3>
+                        <div class="img-wrapper">
+                            <img src="img/img2.png" alt="">
+                        </div>
+                        <div class="article-info">
+                                <div class="article-info__date">
+                                    <time>13.09.2021</time>
+                                </div>
+                                <div class="article-info__btn">
+                                    <a href="articles/2.html">Читать</a>
+                                </div>
+                            </div>
+                    </article>
+                    <article>
+                        <h3>Основы PHP</h3>
+                        <div class="img-wrapper">
+                            <img src="img/php.png" alt="">
+                        </div>
+                        <div class="article-info">
+                                <div class="article-info__date">
+                                    <time>13.09.2021</time>
+                                </div>
+                                <div class="article-info__btn">
+                                    <a href="articles/3.html">Читать</a>
+                                </div>
+                            </div>
+                    </article>
+                </div>
+                <div class="articles__row">
+                    <article>
+                        <h3>Best practice JS. Javascript</h3>
+                        <div class="img-wrapper">
+                            <img src="img/js.png" alt="">
+                        </div>
+                        <div class="article-info">
+                                <div class="article-info__date">
+                                    <time>13.09.2021</time>
+                                </div>
+                                <div class="article-info__btn">
+                                    <a href="articles/4.html">Читать</a>
+                                </div>
+                            </div>
+                    </article>
+                    <article>
+                        <h3>Топ 5 фишек в верстке. HTML/CSS</h3>
+                        <div class="img-wrapper">
+                            <img src="img/img3.png" alt="">
+                        </div>
+                        <div class="article-info">
+                                <div class="article-info__date">
+                                    <time>13.09.2021</time>
+                                </div>
+                                <div class="article-info__btn">
+                                    <a href="articles/5.html">Читать</a>
+                                </div>
+                            </div>
+                    </article>
+                    <article>
+                        <h3>Самые частоиспользуемые теги HTML</h3>
+                        <div class="img-wrapper">
+                            <img src="img/tag.png" alt="">
+                        </div>
+                        <div class="article-info">
+                                <div class="article-info__date">
+                                    <time>13.09.2021</time>
+                                </div>
+                                <div class="article-info__btn">
+                                    <a href="articles/6.html">Читать</a>
+                                </div>
+                            </div>
+                    </article>
+                </div>
+
+                <div class="articles__row" style="display: none;">
+                    <article>
+                        <h3>Прототипы в JS. Javascript</h3>
+                        <div class="img-wrapper">
+                            <img src="img/notebook.png" alt="">
+                        </div>
+                        <div class="article-info">
+                                <div class="article-info__date">
+                                    <time>13.09.2021</time>
+                                </div>
+                                <div class="article-info__btn">
+                                    <a href="articles/7.html">Читать</a>
+                                </div>
+                            </div>
+                    </article>
+                    <article>
+                        <h3>Фреймворк Vue.js. Обзор </h3>
+                        <div class="img-wrapper">
+                            <img src="img/dev.png" alt="">
+                        </div>
+                        <div class="article-info">
+                                <div class="article-info__date">
+                                    <time>13.09.2021</time>
+                                </div>
+                                <div class="article-info__btn">
+                                    <a href="articles/8.html">Читать</a>
+                                </div>
+                            </div>
+                    </article>
+                    <article>
+                        <h3>Сравнение Vue.js и React.js</h3>
+                        <div class="img-wrapper">
+                            <img src="img/react.png" alt="">
+                        </div>
+                        <div class="article-info">
+                                <div class="article-info__date">
+                                    <time>13.09.2021</time>
+                                </div>
+                                <div class="article-info__btn">
+                                    <a href="articles/9.html">Читать</a>
+                                </div>
+                            </div>
+                    </article>
+                </div>
+
+                <div class="btn-wrapper">
+                    <button type="button" class="load-more" id="load-more">
+                        Загрузить еще
+                    </button>
+                </div>
+            </div>
+        </section>
+        <div class="devider"></div>
+        <section class="about-blog" id="about-blog">
+            <div class="container">
+                <div class="about-blog__wrapper">
+                    <div class="about-blog__text">
+                        <h2>Блог о вебразработке</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,</p>
+                    </div>
+                    <div class="about-blog__donate-wrapper">
+                        <div class="btn-wrapper">
+                            <button class="donate" id="donate">Поддержать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <p>
+            <time>2021</time>
+            <span>&#169;</span>
+            <a href="">nositelshtanov</a>
+        </p>
+    </footer>
+    <script src="js/donate.js"></script>
+    <script src="js/loadmore.js"></script>
+    <script src="js/find-app.js"></script>
+</body>
+</html>
